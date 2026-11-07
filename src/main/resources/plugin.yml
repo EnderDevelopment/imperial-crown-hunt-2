@@ -1,0 +1,13 @@
+name: ImperialCrown
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  imperial:
+    description: Manage the Imperial Crown event.
+    usage: /imperial <status|open|reset|setcastle|setparkour>
+    permission: imperial.admin
+permissions:
+  imperial.admin:
+    description: Manage the Imperial Crown event.
+    default: op
